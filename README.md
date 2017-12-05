@@ -1,1 +1,3 @@
-# personal-finance
+### Personal Finance App
+
+* Initial testing and setup
