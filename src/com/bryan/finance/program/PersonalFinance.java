@@ -10,8 +10,6 @@ public class PersonalFinance {
 	public static void main(String[] args) {
 
 		appLogger = new AppLogger();
-		MainMenu m = new MainMenu();
-		m.show();
-
+		new MainMenu().showMenu();
 	}
 }
