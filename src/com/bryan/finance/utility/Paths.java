@@ -19,6 +19,7 @@ public class Paths extends Literals {
 
 	public static String getResourcesPath() {
 		String launch = getLaunchPath();
-		return launch.replace(BUILD_PATH, CONFIG_DIR);
+		launch = launch.replace(BUILD_PATH, "");
+		return launch + CONFIG_DIR;
 	}
 }
