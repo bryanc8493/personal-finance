@@ -1,13 +1,14 @@
-package com.bryan.finance.program;
+package com.bryan.finance.view.util;
 
 import org.testng.Assert;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-import com.bryan.finance.view.util.Loading;
+import com.bryan.finance.literals.Literals;
+import com.bryan.finance.program.PersonalFinance;
 
-public class PersonalFinanceTest {
+public class LoadingTest {
 
 	private Loading load;
 
@@ -17,12 +18,15 @@ public class PersonalFinanceTest {
 	}
 
 	@Test
-	public void isLoaderRunning() {
-		Assert.assertNotNull(load);
+	public void verifyLoaderTitle() {
+		String title = load.getTitle();
+		String expTitle = Literals.APP_NAME;
+		Assert.assertEquals(title, expTitle);
 	}
 
 	@AfterTest
 	public void cleanup() {
 		load.terminate();
 	}
+
 }

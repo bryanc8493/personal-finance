@@ -16,7 +16,6 @@ public class AppLogger {
 	private Logger logger;
 
 	public AppLogger() {
-
 		logger = Logger.getLogger(this.getClass());
 		String log4JPropertyFile = Paths.getResourcesPath()
 				+ Literals.LOGGER_PROPERTY_FILE;
@@ -32,14 +31,12 @@ public class AppLogger {
 	}
 
 	private void logHeader() {
-
 		logger.info("===========================================");
 		logger.info("STARTING APPLICATION");
 		logger.info("===========================================");
 	}
 
 	public void logFooter() {
-
 		logger.info("===========================================");
 		logger.info("APPLICATION CLOSED");
 		logger.info("==========================================="
