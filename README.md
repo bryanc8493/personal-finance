@@ -1,4 +1,4 @@
-# Personal Finance App
+# Personal Finance Application
 
 ## Description
 * Initial testing and setup
