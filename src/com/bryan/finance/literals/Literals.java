@@ -1,9 +1,13 @@
 package com.bryan.finance.literals;
 
-public abstract class Literals {
+import java.awt.Color;
 
+public abstract class Literals {
 	public static final String OS_PROPERTY = "os.name";
+	public static final String APP_NAME = "Personal Finance";
 	public static final String APP_ARTIFACT = "PersonalFinance.jar";
+	public static final Color APP_COLOR = new Color(26, 88, 127);
+	public static final String LOAD_MESSAGE = "Loading and initializing application...";
 	public static final String DOT_JAR = ".jar";
 
 	public static final char SLASH = '/';

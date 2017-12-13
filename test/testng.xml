@@ -6,9 +6,20 @@
       <class name="com.bryan.finance.program.PersonalFinanceTest"/>
       <class name="com.bryan.finance.log.AppLoggerTest"/>
       <class name="com.bryan.finance.utility.PathsTest"/>
+      <class name="com.bryan.finance.view.util.LoadingTest"/>
     </classes>
   </test>
-  <test name="GUI">
+  <test name="Database Actions">
+    <classes>
+      <class name="com.bryan.finance.persistance.ConnectionFactoryTest"/>
+    </classes>
+  </test>
+  <test name="Authentication">
+    <classes>
+      <class name="com.bryan.finance.view.AuthenticationTest"/>
+    </classes>
+  </test>
+  <test name="Main Menu">
     <classes>
       <class name="com.bryan.finance.view.MainMenuTest"/>
     </classes>
