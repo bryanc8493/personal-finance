@@ -6,10 +6,10 @@ import org.testng.annotations.Test;
 public class PathsTest {
 
 	private String DEV = "C:/Users/Bryan/workspace/personal-finance/build/classes/";
-	private String PROD = "C:/PersonalFinance/Deploy/";
+	private String PROD = "C:/PersonalFinance/";
 
 	private String DEV_RESOURCE = "C:/Users/Bryan/workspace/personal-finance/config/";
-	private String PROD_RESOURCE = "C:/PersonalFinance/Deploy/config/";
+	private String PROD_RESOURCE = "C:/PersonalFinance/config/";
 
 	@Test
 	public void correctStartPath() {
